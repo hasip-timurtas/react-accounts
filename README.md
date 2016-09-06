@@ -1,5 +1,15 @@
 A meteor package for meteor-reactjs applications
 
+Add NPM packages
+```
+npm install react react-dom react-mounter
+``` 
+add meteor package
+
+```
+meteor add hasip:react-accounts
+
+``` 
 
 ```
 // first, remove configuration entry in case service is already configured
