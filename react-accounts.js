@@ -83,9 +83,9 @@ export class Login extends React.Component {
             }
         });
 
-        this.setState({
+      /*  this.setState({
             userId: Meteor.userId()
-        });
+        });*/
     }
 
     loginWithGoogle() {
@@ -99,9 +99,9 @@ export class Login extends React.Component {
             }
         });
 
-        this.setState({
+       /* this.setState({
             userId: Meteor.userId()
-        });
+        });*/
 
     }
 

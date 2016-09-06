@@ -1,6 +1,6 @@
 Package.describe({
   name: 'hasip:react-accounts',
-  version: '0.0.2',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
   summary: 'A meteor package for meteor-reactjs applications',
   // URL to the Git repository containing the source code for this package.
@@ -15,4 +15,8 @@ Package.onUse(function (api) {
   api.use('ecmascript');
   api.mainModule('react-accounts.js');
   api.use('accounts-google');
+  api.use('accounts-password');
+  api.use('twbs:bootstrap@3.3.6');
+  api.use('kadira:flow-router@2.12.1');
+  api.addFiles('client/register-style.css', 'client');
 });
