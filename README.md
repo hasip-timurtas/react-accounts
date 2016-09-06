@@ -1,1 +1,1 @@
-# react-accounts
+A meteor package for meteor-reactjs applications
