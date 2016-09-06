@@ -1,6 +1,6 @@
 Package.describe({
   name: 'hasip:react-accounts',
-  version: '0.0.3',
+  version: '0.0.5',
   // Brief, one-line summary of the package.
   summary: 'A meteor package for meteor-reactjs applications',
   // URL to the Git repository containing the source code for this package.

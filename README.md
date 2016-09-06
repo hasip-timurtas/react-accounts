@@ -1,6 +1,7 @@
 A meteor package for meteor-reactjs applications
 
 
+```
 // first, remove configuration entry in case service is already configured
 Accounts.loginServiceConfiguration.remove({
   service: "google"
@@ -12,8 +13,11 @@ Accounts.loginServiceConfiguration.insert({
 });
 
 
+```
+
 Usage : 
 
+```
 import React from 'react';
 import {mount} from 'react-mounter';
 import {MainLayout} from './layout';
@@ -31,6 +35,7 @@ FlowRouter.route('/register', {
 });
 
 
+
 FlowRouter.route('/login', {
     action() {
         mount(MainLayout, {
@@ -38,3 +43,5 @@ FlowRouter.route('/login', {
         })
     }
 });
+
+```
