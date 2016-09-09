@@ -1,6 +1,6 @@
 #hasip:react-accounts
 
-A meteor package for meteor-reactjs applications
+A meteor accounts package for meteor-reactjs applications
 
 Add NPM packages
 ```
