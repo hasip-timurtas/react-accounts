@@ -1,5 +1,7 @@
 #hasip:react-accounts
 
+https://atmospherejs.com/hasip/react-accounts
+
 A meteor accounts package for meteor-reactjs applications
 
 Add NPM packages
